@@ -46,7 +46,7 @@ with sr.Microphone() as source:
         while True:  # repeatedly listen for phrases and put the resulting audio on the audio processing job queue
             # listen in 5 second chunks and if it times out simply pass through
             try:
-                audio_queue.put(r.listen(source, 5, 10))
+                audio_queue.put(r.listen(source, 5, 5))
             except WaitTimeoutError as e:
                 pass
     except KeyboardInterrupt:  # allow Ctrl + C to shut down the program
