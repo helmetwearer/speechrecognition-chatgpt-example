@@ -12,7 +12,7 @@ Make sure to run:
 
     chatgpt install
 
-(More details here)[https://github.com/mmabrouk/chatgpt-wrapper]
+[More details here](https://github.com/mmabrouk/chatgpt-wrapper)
 
 To run the script:
 
